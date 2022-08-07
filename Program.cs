@@ -29,9 +29,24 @@
 //-3 -> нет
 //7 -> нет
 
-Console.Write("Input first number:");
-int number1=Convert.ToInt32(Console.ReadLine()); //4
-if  ((double)number1%2==0)
-Console.Write(" Number1 - Четное");
-else
-Console.Write(" Number - Нечетное");
+//Console.Write("Input first number:");
+//int number1=Convert.ToInt32(Console.ReadLine()); //4
+//if  ((double)number1%2==0)
+//Console.Write(" Number1 - Четное");
+//else
+//Console.Write(" Number - Нечетное");
+
+//Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+
+//5 -> 2, 4
+//8 -> 2, 4, 6, 8
+
+Console.Write("Write number 1: ");
+int n = Convert.ToInt32(Console.ReadLine());;
+Console.Write("Write number 2: ");
+ int m = Convert.ToInt32(Console.ReadLine());;
+for (int i = n; i <= m; i++)
+        
+ if (i % 2 == 0) 
+            
+ Console.Write(i + "Четные числа ");
