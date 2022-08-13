@@ -41,12 +41,77 @@
 //5 -> 2, 4
 //8 -> 2, 4, 6, 8
 
-Console.Write("Write number 1: ");
-int n = Convert.ToInt32(Console.ReadLine());;
-Console.Write("Write number 2: ");
- int m = Convert.ToInt32(Console.ReadLine());;
-for (int i = n; i <= m; i++)
-        
- if (i % 2 == 0) 
+// Console.Write("Write number 1: ");
+// int n = Convert.ToInt32(Console.ReadLine());;
+// Console.Write("Write number 2: ");
+//  int m = Convert.ToInt32(Console.ReadLine());;
+// for (int i = n; i <= m; i++)
+       
+//  if (i % 2 == 0) 
             
- Console.Write(i + "Четные числа ");
+//  Console.Write(i + "Четные числа ");
+
+// Задача 10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
+
+// 456 -> 5
+// 782 -> 8
+// 918 -> 1
+
+
+
+// Задача 10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
+
+// 456 -> 5
+// 782 -> 8
+// 918 -> 1
+
+// Console.Write("Введи трёхзначное число: ");
+// int num = new Random().Next(100,1000);
+// int secondDigitNumber = num / 10 % 10;
+// Console.WriteLine($"Вторая цифра числа {num} -> {secondDigitNumber}");
+
+//  Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
+
+// 645 -> 5
+
+// 78 -> третьей цифры нет
+
+// 32679 -> 6
+
+// Console.WriteLine("Enter some number: ");
+//  int Number = Convert.ToInt32(Console.ReadLine());
+// int cycle = 0;
+
+// while (cycle < Number) {
+//     if (Number > 999) 
+//     {
+//         Number = Number / 10;
+//     }
+//      cycle++;
+//  }
+
+// if (Number > 99 && Number < 1000) 
+// {
+//     Console.Write("The third digit is: ");
+//     Console.WriteLine(Number % 10);
+// }
+
+// else 
+// {
+//   Console.WriteLine("There's no third digit in your number.");
+//  }
+
+// Console.Write("Введи цифру, обозначающую день недели: ");
+// int dayNumber = Convert.ToInt32(Console.ReadLine());
+
+// void CheckingTheDayOfTheWeek (int dayNumber) {
+//   if (dayNumber == 6 || dayNumber == 7) {
+//   Console.WriteLine("(этот день выходной) -> да");
+//   }
+//   else if (dayNumber < 1 || dayNumber > 7) {
+//     Console.WriteLine("это вообще не день недели");
+//   }
+//   else Console.WriteLine("(этот день не выходной) -> нет");
+// }
+// CheckingTheDayOfTheWeek(dayNumber);
+
